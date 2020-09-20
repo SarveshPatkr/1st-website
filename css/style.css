@@ -1,0 +1,301 @@
+/* For Mobile  */
+@media only screen and (max-width:376px){
+    *{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(66, 66, 66);
+        color: aliceblue;
+
+    }
+    .quickLinks{
+        text-decoration: none;
+        /* color: white; */
+        margin: 0.5rem;
+        font-size: 1rem;
+        text-align: center;
+     
+    }
+    .menuBar {
+        display: flex;
+        position: sticky;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #icon{
+        height: 40px;
+        margin-top: 5px;
+        position: sticky;
+    
+    }
+    .qLinks{
+        display: flex;
+        
+    }
+    .quickLinks :hover{
+        text-decoration: none;
+        
+        /* text-decoration-color: brown; */
+        
+        font-size: 1.5rem;
+        text-align: center;
+     
+    }
+    #menuBarLine{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .page1{
+        /* height: 1000px; */
+        margin-left: 1rem;
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #fff; */
+    }
+    .homeContent{
+        padding-bottom: 100%;
+        padding-top: 5%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: solid 2px tomato; */
+    }
+    .homeContent2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 3%;
+        padding-bottom: 20%;
+        margin: 0;
+        /* border: solid 2px tomato; */
+    }
+    .homeContent3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        margin: 0;
+        /* border: solid 2px tomato; */
+    }
+    .dc{
+        padding: 2%;
+    }
+    #title{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Dancing Script', cursive;
+        font-size: 2rem;
+        color: rgb(255, 213, 134);
+    }
+    #title img{
+        width: 10%;
+        height: 10%;
+
+    }
+    img .image1{
+        max-width: 50%;
+        padding: 1%;
+
+        width: 25px;
+        height: 25px;
+    }
+    #img1{
+        width: 50%;
+        height: 50%;   
+        padding: 3%;
+        margin: 3%;
+    }
+    .logIn{
+        /* color: aqua; */
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+
+    }
+    .join{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 20px;
+        
+        background-color: grey;
+        text-align: center;
+        color: rgb(53, 53, 53);
+        /* background-repeat: repeat-x; */
+    
+    }
+}
+
+/* For PC  */
+@media only screen and (min-width:377px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Lemonada', cursive;
+        background-color: rgb(233, 241, 250);
+    }
+    .menuBar {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    #icon{
+    height: 50px;
+    position: sticky;
+
+    }
+    .qLinks{
+    display: flex;
+    justify-content: center;
+    }
+    .quickLinks{
+    text-decoration: none;
+    color: rgb(64, 153, 255);
+    /* text-shadow: 5px; */
+    margin-left: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 20%;
+    padding-left: 5%;
+ 
+    }
+    .quickLinks:hover{
+    text-decoration: none;
+    text-align: center;
+    /* color: white; */
+    color: rgb(255, 213, 134);
+    cursor: default;
+ 
+    }
+    #menuBarLine{
+    width: 80%;
+    margin-left: 10%;
+    }
+    .page1{
+    /* height: 1000px; */
+    /* background-color: #fff; */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    }
+    .homeContent{
+        padding-bottom: 30%;
+        display: flex;
+        font-family: 'Dancing Script', cursive;
+        flex-direction: column;
+        justify-content: center;
+        /* justify-items: center; */
+        align-items: center;
+        /* padding-right: 40% ; */
+        margin: auto;
+        /* border: solid 2px tomato; */
+    }
+    .homeContent2 {
+        /* padding-top: 40%; */
+        padding-bottom: 30%;
+        /* padding-bottom: 40%; */
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        /* align-items: center; */
+        /* padding-right: 40% ; */
+        margin: 2%;
+        /* border: solid 2px tomato; */
+    }
+    .abtus{
+        text-align: center;
+    }
+    .homeContent3{
+        padding-bottom: 30%;
+        /* padding-top: 40%; */
+        /* padding-bottom: 40%; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* align-items: center; */
+        /* padding-right: 40% ; */
+        margin: 2%;
+        /* border: solid 2px tomato; */
+    }
+    .dc{
+        padding: 2%;
+    }
+    #title{
+        display: flex;
+        padding-top: 5%;
+        flex-flow: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        font-family: 'Dancing Script', cursive;
+        color: rgb(255, 213, 134);
+        font-size: 5rem;
+    }
+    #title img{
+        width: 10%;
+        height: 25%;
+    }
+ 
+    #Home{
+        /* border: solid 5px rgb(64, 153, 255); */
+        height: 500px;
+
+        
+        
+    }
+    .signatureLine{
+        /* font-family: 'Dancing Script', cursive; */
+        font-size: 2rem;
+    }
+    .image1{
+        padding: 1%;
+
+    }
+    #img1{
+        width: 50%;
+        height: 50%;   
+    }
+    .logIn{
+        /* color: rgb(255, 176, 176); */
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        align-items: center;
+    }
+    #cmnt{
+        min-width: auto;
+    }
+    .join{
+        display: flex;
+        flex-direction: column;
+    }
+    .inpt{
+        border: solid rgb(184, 184, 184) 1px;
+        padding: 5px;
+        margin: 5px;
+    }
+    .footer{
+    height: 20px;
+    position: static;
+    bottom: 10px;
+    background-color: grey;
+    /* background-repeat: repeat-x; */
+    text-align: center;
+    color: rgb(53, 53, 53);
+    
+
+    }
+}
