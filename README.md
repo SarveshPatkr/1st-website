@@ -1,2 +1,4 @@
 # 1st-website
-this was my first website only using html and css
+<hr>
+
+This was my first  static website only using html and css.
